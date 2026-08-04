@@ -1,0 +1,99 @@
+{
+  "id": "1c1edcb5-e4b7-4cde-a199-69aadaff4472",
+  "version": "2.0",
+  "name": "amazon test",
+  "url": "https://www.amazon.com/",
+  "tests": [{
+    "id": "83f26a16-700c-4e9f-808f-b7108af67c57",
+    "name": "lab1",
+    "commands": [{
+      "id": "094620db-8131-4977-8f6f-6707c73d8e86",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53c20121-7eaa-445c-9394-c0a84012d121",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc1cafce-e23e-4a23-8b69-1d562ea3488c",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a38260f8-7fe4-47ee-bf29-553b8adba1c7",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "pen"
+    }, {
+      "id": "8b4b2c12-4f40-422d-9c0e-d41b81475671",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ac3edbf8-5ff0-4a98-abe5-fb43a776adf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a-spacing-top-small > span:nth-child(1)",
+      "targets": [
+        ["css=.a-spacing-top-small > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='search']/span/div/h1/div/div/div/h2/span", "xpath:idRelative"],
+        ["xpath=//h2/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0755656-b5ee-4c64-8987-ef9caec2c28a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.a-spacing-top-small > span:nth-child(1)",
+      "targets": [
+        ["css=.a-spacing-top-small > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='search']/span/div/h1/div/div/div/h2/span", "xpath:idRelative"],
+        ["xpath=//h2/span", "xpath:position"]
+      ],
+      "value": "1-48 of over 100,000 results for"
+    }, {
+      "id": "f0d01a8e-6db0-438c-ba40-b6380ab88301",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [],
+  "urls": ["https://www.amazon.com/", "https://www.google.com/", "https://demo.opencart.com/"],
+  "plugins": []
+}
