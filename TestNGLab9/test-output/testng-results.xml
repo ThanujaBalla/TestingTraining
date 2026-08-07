@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicked on Desktops]]>
+    </line>
+    <line>
+      <![CDATA[Verified Mac Heading]]>
+    </line>
+    <line>
+      <![CDATA[Add to Cart Verified]]>
+    </line>
+    <line>
+      <![CDATA[Searching Monitors]]>
+    </line>
+    <line>
+      <![CDATA[Search Verified]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Desktops]]>
+    </line>
+    <line>
+      <![CDATA[Verified Mac Heading]]>
+    </line>
+    <line>
+      <![CDATA[Add to Cart Verified]]>
+    </line>
+    <line>
+      <![CDATA[Searching Monitors]]>
+    </line>
+    <line>
+      <![CDATA[Search Verified]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-08-07T19:12:10 IST" name="Default suite" finished-at="2026-08-07T19:12:31 IST" duration-ms="20492">
+    <groups>
+    </groups>
+    <test started-at="2026-08-07T19:12:10 IST" name="Default test" finished-at="2026-08-07T19:12:31 IST" duration-ms="20492">
+      <class name="com.test.MultiBrowserTest">
+        <test-method signature="chromeTest()[pri:0, instance:com.test.MultiBrowserTest@4afcd809]" started-at="2026-08-07T19:12:10 IST" name="chromeTest" finished-at="2026-08-07T19:12:22 IST" duration-ms="11156" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Desktops]]>
+            </line>
+            <line>
+              <![CDATA[Verified Mac Heading]]>
+            </line>
+            <line>
+              <![CDATA[Add to Cart Verified]]>
+            </line>
+            <line>
+              <![CDATA[Searching Monitors]]>
+            </line>
+            <line>
+              <![CDATA[Search Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chromeTest -->
+        <test-method signature="edgeTest()[pri:0, instance:com.test.MultiBrowserTest@4afcd809]" started-at="2026-08-07T19:12:22 IST" name="edgeTest" finished-at="2026-08-07T19:12:31 IST" duration-ms="9278" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Desktops]]>
+            </line>
+            <line>
+              <![CDATA[Verified Mac Heading]]>
+            </line>
+            <line>
+              <![CDATA[Add to Cart Verified]]>
+            </line>
+            <line>
+              <![CDATA[Searching Monitors]]>
+            </line>
+            <line>
+              <![CDATA[Search Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- edgeTest -->
+      </class> <!-- com.test.MultiBrowserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
