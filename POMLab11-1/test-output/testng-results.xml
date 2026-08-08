@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Desktops]]>
+    </line>
+    <line>
+      <![CDATA[Mac Heading Verified]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart Verified]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Desktops]]>
+    </line>
+    <line>
+      <![CDATA[Mac Heading Verified]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart Verified]]>
+    </line>
+    <line>
+      <![CDATA[Searching Monitors]]>
+    </line>
+    <line>
+      <![CDATA[Searching Phones]]>
+    </line>
+    <line>
+      <![CDATA[Searching Cameras]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-08-08T12:14:46 IST" name="OpenCartSuite" finished-at="2026-08-08T12:14:51 IST" duration-ms="4429">
+    <groups>
+    </groups>
+    <test started-at="2026-08-08T12:14:46 IST" name="POMTest" finished-at="2026-08-08T12:14:51 IST" duration-ms="4429">
+      <class name="package1.BaseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:package1.BaseTest@fbd1f6]" started-at="2026-08-08T12:14:42 IST" name="setup" finished-at="2026-08-08T12:14:46 IST" duration-ms="4463" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:package1.BaseTest@fbd1f6]" started-at="2026-08-08T12:14:46 IST" name="beforeTest" finished-at="2026-08-08T12:14:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:package1.BaseTest@fbd1f6]" started-at="2026-08-08T12:14:51 IST" name="afterTest" finished-at="2026-08-08T12:14:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:package1.BaseTest@fbd1f6]" started-at="2026-08-08T12:14:51 IST" name="tearDown" finished-at="2026-08-08T12:14:51 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- package1.BaseTest -->
+      <class name="package1.SearchTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:package1.SearchTest@8297b3a]" started-at="2026-08-08T12:14:50 IST" name="beforeClass" finished-at="2026-08-08T12:14:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:package1.SearchTest@8297b3a]" started-at="2026-08-08T12:14:50 IST" name="beforeMethod" finished-at="2026-08-08T12:14:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchFlowTest(java.lang.String,java.lang.String)[pri:0, instance:package1.SearchTest@8297b3a]" started-at="2026-08-08T12:14:50 IST" name="searchFlowTest" data-provider="searchData" finished-at="2026-08-08T12:14:50 IST" duration-ms="470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Monitors]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Searching Monitors]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlowTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:package1.SearchTest@8297b3a]" started-at="2026-08-08T12:14:50 IST" name="afterMethod" finished-at="2026-08-08T12:14:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="searchFlowTest(java.lang.String,java.lang.String)[pri:0, instance:package1.SearchTest@8297b3a]" started-at="2026-08-08T12:14:50 IST" name="searchFlowTest" data-provider="searchData" finished-at="2026-08-08T12:14:50 IST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Searching Phones]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlowTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:package1.SearchTest@8297b3a]" started-at="2026-08-08T12:14:50 IST" name="beforeMethod" finished-at="2026-08-08T12:14:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:package1.SearchTest@8297b3a]" started-at="2026-08-08T12:14:50 IST" name="afterMethod" finished-at="2026-08-08T12:14:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="searchFlowTest(java.lang.String,java.lang.String)[pri:0, instance:package1.SearchTest@8297b3a]" started-at="2026-08-08T12:14:50 IST" name="searchFlowTest" data-provider="searchData" finished-at="2026-08-08T12:14:51 IST" duration-ms="392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Camera]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cameras]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Searching Cameras]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlowTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:package1.SearchTest@8297b3a]" started-at="2026-08-08T12:14:50 IST" name="beforeMethod" finished-at="2026-08-08T12:14:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:package1.SearchTest@8297b3a]" started-at="2026-08-08T12:14:51 IST" name="afterClass" finished-at="2026-08-08T12:14:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:package1.SearchTest@8297b3a]" started-at="2026-08-08T12:14:51 IST" name="afterMethod" finished-at="2026-08-08T12:14:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- package1.SearchTest -->
+      <class name="package1.DesktopTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:package1.DesktopTest@7817fd62]" started-at="2026-08-08T12:14:46 IST" name="beforeClass" finished-at="2026-08-08T12:14:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="DesktopFlow(java.lang.String)[pri:0, instance:package1.DesktopTest@7817fd62]" started-at="2026-08-08T12:14:46 IST" name="DesktopFlow" data-provider="sortData" finished-at="2026-08-08T12:14:48 IST" duration-ms="1570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name (A - Z)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Desktops]]>
+            </line>
+            <line>
+              <![CDATA[Mac Heading Verified]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DesktopFlow -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:package1.DesktopTest@7817fd62]" started-at="2026-08-08T12:14:46 IST" name="beforeMethod" finished-at="2026-08-08T12:14:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:package1.DesktopTest@7817fd62]" started-at="2026-08-08T12:14:48 IST" name="afterMethod" finished-at="2026-08-08T12:14:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="DesktopFlow(java.lang.String)[pri:0, instance:package1.DesktopTest@7817fd62]" started-at="2026-08-08T12:14:48 IST" name="DesktopFlow" data-provider="sortData" finished-at="2026-08-08T12:14:50 IST" duration-ms="1513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name (Z - A)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Desktops]]>
+            </line>
+            <line>
+              <![CDATA[Mac Heading Verified]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DesktopFlow -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:package1.DesktopTest@7817fd62]" started-at="2026-08-08T12:14:48 IST" name="beforeMethod" finished-at="2026-08-08T12:14:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:package1.DesktopTest@7817fd62]" started-at="2026-08-08T12:14:50 IST" name="afterMethod" finished-at="2026-08-08T12:14:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:package1.DesktopTest@7817fd62]" started-at="2026-08-08T12:14:50 IST" name="afterClass" finished-at="2026-08-08T12:14:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- package1.DesktopTest -->
+    </test> <!-- POMTest -->
+  </suite> <!-- OpenCartSuite -->
+</testng-results>
