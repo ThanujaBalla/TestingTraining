@@ -1,0 +1,6 @@
+<SearchDetails>
+<searchbox>xpath://input[@name='search']</searchbox>
+<searchbutton>xpath://button[@class='btn btn-default btn-lg']</searchbutton>
+<resultpageheading>xpath://div[@id='content']//h1</resultpageheading>
+
+</SearchDetails>
