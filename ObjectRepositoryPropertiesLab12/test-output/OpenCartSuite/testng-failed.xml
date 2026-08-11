@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OpenCartSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="POMTest(failed)">
+    <classes>
+      <class name="package1.SearchTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="searchFlowTest" invocation-numbers="0 1 2"/>
+          <include name="setup"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- package1.SearchTest -->
+      <class name="package1.DesktopTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="beforeTest"/>
+          <include name="DesktopFlow" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- package1.DesktopTest -->
+    </classes>
+  </test> <!-- POMTest(failed) -->
+</suite> <!-- Failed suite [OpenCartSuite] -->
