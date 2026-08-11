@@ -4,8 +4,7 @@
   <test thread-count="5" name="POMPageFactoryTest">
     <classes>
     <class name="package1.BaseTest"/>
-      <class name="package1.DesktopTest"/>
-      <class name="package1.SearchTest"/>
+      <class name="package1.RegisterTest"/>
     
     </classes>
   </test> <!-- POMTest -->
