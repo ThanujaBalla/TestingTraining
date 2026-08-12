@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OpenCartSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="POMPageFactoryTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="package1.RegisterTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="fillRegisterForm" invocation-numbers="0 1 2 3"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- package1.RegisterTest -->
+    </classes>
+  </test> <!-- POMPageFactoryTest(failed) -->
+</suite> <!-- Failed suite [OpenCartSuite] -->
