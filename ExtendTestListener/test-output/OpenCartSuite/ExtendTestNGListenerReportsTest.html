@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>TestNG:  ExtendTestNGListenerReportsTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ExtendTestNGListenerReportsTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 12 15:11:48 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5856 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='package1.DesktopTest.DesktopFlow()'><b>DesktopFlow</b><br>Test class: package1.DesktopTest<br>Parameters: Name (A - Z)<br/>
+<a href="#Output-477463877" onClick='toggleBox("Output-477463877", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-477463877" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-477463877">
+Clicked on Desktops<br/>
+Mac Heading Verified<br/>
+Add to cart Verified<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>package1.DesktopTest@7d20d0b</td></tr>
+<tr>
+<td title='package1.DesktopTest.DesktopFlow()'><b>DesktopFlow</b><br>Test class: package1.DesktopTest<br>Parameters: Name (Z - A)<br/>
+<a href="#Output-1181947538" onClick='toggleBox("Output-1181947538", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1181947538" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1181947538">
+Clicked on Desktops<br/>
+Mac Heading Verified<br/>
+Add to cart Verified<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>package1.DesktopTest@7d20d0b</td></tr>
+<tr>
+<td title='package1.SearchTest.searchFlowTest()'><b>searchFlowTest</b><br>Test class: package1.SearchTest<br>Parameters: Camera, Cameras<br/>
+<a href="#Output-1813375175" onClick='toggleBox("Output-1813375175", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1813375175" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1813375175">
+Searching Cameras<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>package1.SearchTest@77f1baf5</td></tr>
+<tr>
+<td title='package1.SearchTest.searchFlowTest()'><b>searchFlowTest</b><br>Test class: package1.SearchTest<br>Parameters: Mobile, Monitors<br/>
+<a href="#Output-384752294" onClick='toggleBox("Output-384752294", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-384752294" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-384752294">
+Searching Monitors<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>package1.SearchTest@77f1baf5</td></tr>
+<tr>
+<td title='package1.SearchTest.searchFlowTest()'><b>searchFlowTest</b><br>Test class: package1.SearchTest<br>Parameters: Laptop, Phones<br/>
+<a href="#Output-1899609393" onClick='toggleBox("Output-1899609393", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1899609393" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1899609393">
+Searching Phones<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>package1.SearchTest@77f1baf5</td></tr>
+</table><p>
+</body>
+</html>
