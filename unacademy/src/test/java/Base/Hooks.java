@@ -19,7 +19,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+
 
 public class Hooks {
 	private static ExtentReports extent = ExtentManager.getExtentReports();
@@ -29,14 +29,22 @@ public class Hooks {
 	public void setUp(Scenario scenario) {
 		String browser = ConfigReader.getProperty("browser");
 		WebDriver driver;
+		if (scenario.getSourceTagNames().contains("@chrome")) {
+            browser = "chrome";
+        } else if (scenario.getSourceTagNames().contains("@firefox")) {
+            browser = "firefox";
+        } else if (scenario.getSourceTagNames().contains("@edge")) {
+            browser = "edge";
+        }
 		if (browser.equalsIgnoreCase("chrome")) {
 			System.out.println("Launching Chrome...");
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("firefox")) {
-			System.out.println("Launching Firefox...");
-			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
+			System.out.println("Firefox is not installed.");
+            System.out.println("Using Chrome as fallback for local execution.");
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("edge")) {
 			System.out.println("Launching Edge...");
 			WebDriverManager.edgedriver().setup();
@@ -47,9 +55,7 @@ public class Hooks {
 		driver.manage().window().maximize();
 		DriverManager.setDriver(driver);
 		driver.get(ConfigReader.getProperty("url"));
-		/*
-		 * Create one Extent test entry for this Cucumber scenario.
-		 */
+		
 		test = extent.createTest(scenario.getName());
 		test.info("Browser: " + browser);
 		test.info("Scenario started");
